@@ -1,0 +1,71 @@
+.note1
+{
+    text-align: center;
+    height: 80px;
+    background: -webkit-linear-gradient(left, #d43e3e, #1d2ada);
+    color: #fff;
+    font-weight: bold;
+    line-height: 80px;
+}
+.card{
+    background:-webkit-linear-gradient(left, #f70777, #08e4d1);
+    text-decoration:black ;
+    position: relative;
+    left: 3%;
+    top: 50px;
+   
+
+}
+.c1{
+    background:-webkit-linear-gradient(left, #f70777, #08e4d1);
+    text-decoration:black ;
+    position: relative;
+    left: 3%;
+    top: 100px;
+   
+}
+.c2{
+    background:-webkit-linear-gradient(left, #f70777, #08e4d1);
+    text-decoration:black ;
+    position: relative;
+    left: 25%;
+   top: -290px;
+   
+}
+.c3{
+    background:-webkit-linear-gradient(left, #f70777, #08e4d1);
+    text-decoration:black ;
+    position: relative;
+    left: 25%;
+   top: -235px;
+    
+}
+.c4{
+    background:-webkit-linear-gradient(left, #f70777, #08e4d1);
+    text-decoration:black ;
+    position: relative;
+    left: 48%;
+   top: -628px;
+    
+}
+.c5{
+    background:-webkit-linear-gradient(left, #f70777, #08e4d1);
+    text-decoration:black ;
+    position: relative;
+    left: 70%;
+   top: -800px;
+}
+.c6{
+    background:-webkit-linear-gradient(left, #f70777, #08e4d1);
+    text-decoration:black ;
+    position: relative;
+    left: 70%;
+   top: -750px;
+}
+.c7{
+    background:-webkit-linear-gradient(left, #f70777, #08e4d1);
+    text-decoration:black ;
+    position: relative;
+    left: 48%;
+   top: -920px;
+}

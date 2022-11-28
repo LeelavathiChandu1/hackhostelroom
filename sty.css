@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.cot{
+    padding: 20px;
+}
+
+#hidden-div{
+    display: none;
+}
+#mrudr1{
+    border: 1px solid blue;
+}
+
+
+
+
+

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+   
+    <style>
+        body {
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(https://img.freepik.com/free-vector/girls-students-dormitory-room-with-bunk-laptop-desk-wardrobe-bookshelf-vector-cartoon-interior-dorm-bedroom-hostel-apartment-with-young-women-living-together_107791-9823.jpg?w=996&t=st=1669527371~exp=1669527971~hmac=6b7b9604fd7d8c5c80eac6c18b15b1914e9726d74c88d381ff61d4eaabe8be8a)
+        }
+        .scroll-left {
+            height: 45px;
+            overflow: hidden;
+            position: relative;
+            background: orange;
+            color: red;
+        }
+
+
+.scroll-left p {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            line-height: 50px;
+            text-align: center;
+            font-style: italic;
+            font-size: x-large;
+            /* Starting position */
+            -moz-transform: translateX(100%);
+            -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+            /* Apply animation to this element */
+            -moz-animation: scroll-left 15s linear infinite;
+            -webkit-animation: scroll-left 15s linear infinite;
+            animation: scroll-left 15s linear infinite;
+        }
+        /* Move it (define the animation) */
+        @-moz-keyframes scroll-left {
+            0% {
+                -moz-transform: translateX(100%);
+            }
+
+            100% {
+                -moz-transform: translateX(-100%);
+            }
+        }
+
+        @-webkit-keyframes scroll-left {
+            0% {
+                -webkit-transform: translateX(100%);
+            }
+
+            100% {
+                -webkit-transform: translateX(-100%);
+            }
+        }
+
+        @keyframes scroll-left {
+            0% {
+                -moz-transform: translateX(100%);
+                /* Browser bug fix */
+                -webkit-transform: translateX(100%);
+                /* Browser bug fix */
+                transform: translateX(100%);
+            }
+
+            100% {
+                -moz-transform: translateX(-100%);
+                /* Browser bug fix */
+                -webkit-transform: translateX(-100%);
+                /* Browser bug fix */
+                transform: translateX(-100%);
+            }
+        }
+        .container{
+            padding-left: 450px;
+        }
+       h3{
+        background: -webkit-linear-gradient(left, #d43e3e, #1d2ada);
+       }
+       .res{
+        height: 50px;
+        width: 400px;
+        position: relative;
+        left: 530px;
+       }
+       .bt111{
+        background-color: #d43e3e;
+       }
+       .bt111:hover{
+        background-color: #1d2ada;
+       }
+    </style>
+</head>
+<body>
+    <div class="container2">
+        <div class="scroll-left">
+            <p>For cancellation and changing of alloted rooms please contact the concerned authoroties contact details:123456789,123456789</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container ">
+        <div class="card" style="width: 25rem; background-color: purple;">
+            <div class="card-body">
+                <h1 class="card-title">MY ROOM STATUS</h1>
+                <h6 class="card-subtitle mb-2 text-muted"></h6>
+                <div clas="note">
+                    <div class="card" style="width: 23rem;">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item h4 text-dark">Name <span style="padding-left: 6rem;">:</span>
+                                Rajini</li>
+                            <li class="list-group-item h4 text-dark">Hostel name <span
+                                    style="padding-left: 1.5rem;">:</span> Medha</li>
+                            <li class="list-group-item h4 text-dark">Room number <span
+                                    style="padding-left: .5rem;">:</span> 203</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="reee text-center">
+    <div class="res">
+        <h3>Your room is not booked</h3>
+    </div>
+    </div>
+    <div class="but text-center">
+    <button class="btn bt111 btn-large">Send a request for room allotment</button>
+    </div>
+    </body>
+</html>
+
